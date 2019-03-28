@@ -3,69 +3,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-header {
-  margin-top: 60px;
-  text-align: center;
-  clear: both;
-}
-
-a {
+.anchor {
   text-decoration: none;
   color: #0077c5;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+.logo-section {
+  margin-top: 60px;
   text-align: center;
-}
-
-ul li {
-  color: grey;
-  display: inline-block;
-  font-size: 1.2rem;
-  list-style-type: none;
-  vertical-align: middle;
-}
-
-label {
-  color: #404040;
-  font-size: 1.1rem;
-}
-
-input {
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  min-height: 45px;
-  font-size: 1.2rem;
-  padding: 5px 8px;
-  resize: vertical;
-}
-
-input[type="email"] {
-  margin: 8px 0 40px;
-}
-
-input[type="tel"] {
-  margin: 8px 0 0;
-}
-
-input:last-of-type {
-  margin: 8px 0 30px;
-}
-
-footer {
-  color: #404040;
-  font-size: 0.7rem;
-  text-align: center;
-  margin-top: 16px;
-}
-
-footer a {
-  padding-right: 10px;
-  color: #404040;
+  clear: both;
 }
 
 .main-logo {
@@ -74,6 +20,20 @@ footer a {
 
 .logo {
   width: 26px;
+}
+
+.u-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.list-item {
+  color: grey;
+  display: inline-block;
+  font-size: 1.2rem;
+  list-style-type: none;
+  vertical-align: middle;
 }
 
 .main-container {
@@ -97,6 +57,34 @@ footer a {
   margin: 0 auto 30px;
 }
 
+.label {
+  color: #404040;
+  font-size: 1.1rem;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  min-height: 45px;
+  font-size: 1.2rem;
+  padding: 5px 8px;
+  resize: vertical;
+}
+
+.input[type="email"] {
+  margin: 8px 0 40px;
+}
+
+.input[type="tel"] {
+  margin: 8px 0 0;
+}
+
+.input:last-of-type {
+  margin: 8px 0 30px;
+}
+
 .call-warning {
   font-size: 0.75rem;
   margin: 8px 0 40px;
@@ -113,6 +101,13 @@ footer a {
   width: 100%;
 }
 
+.footer {
+  color: #404040;
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: 16px;
+}
+
 .form-footer {
   color: #404040;
   font-size: 0.75rem;
@@ -120,6 +115,11 @@ footer a {
   margin: 50px auto 0;
   text-align: center;
   width: 85%;
+}
+
+.a-footer {
+  padding-right: 10px;
+  color: #404040;
 }
 
 .gray-container {
@@ -147,7 +147,7 @@ footer a {
   flex-direction: column;
 }
 
-.fixed-container button {
+.fixed-container .button {
   margin-left: 10px;
   width: 90px;
   height: 30px;
