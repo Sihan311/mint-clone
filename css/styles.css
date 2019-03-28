@@ -1,15 +1,17 @@
 body {
-  background-color: #ECEEF1;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #eceef1;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
   margin-top: 60px;
   text-align: center;
+  clear: both;
 }
 
 a {
   text-decoration: none;
+  color: #0077c5;
 }
 
 ul {
@@ -42,11 +44,11 @@ input {
   resize: vertical;
 }
 
-input[type=email] {
+input[type="email"] {
   margin: 8px 0 40px;
 }
 
-input[type=tel] {
+input[type="tel"] {
   margin: 8px 0 0;
 }
 
@@ -55,11 +57,11 @@ input:last-of-type {
 }
 
 button {
-  background-color: #0077C5;
-  border: #0077C5;
+  background-color: #0077c5;
+  border: #0077c5;
   border-radius: 4px;
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
-  color: #FFF;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  color: #fff;
   font-size: 1.2rem;
   height: 48px;
   width: 100%;
@@ -67,8 +69,9 @@ button {
 
 footer {
   color: #404040;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   text-align: center;
+  margin-top: 16px;
 }
 
 .logo {
@@ -76,7 +79,7 @@ footer {
 }
 
 .main-container {
-  background-color: #FFF;
+  background-color: #fff;
   border: 1px solid #c7c7c7;
   border-radius: 5px 5px 0 0;
   margin: 15px auto 0;
@@ -94,7 +97,6 @@ footer {
   font-size: 1.5rem;
   font-weight: 500;
   margin: 0 auto 30px;
-
 }
 
 .call-warning {
@@ -112,7 +114,7 @@ footer {
 }
 
 .gray-container {
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   border: 1px solid #c7c7c7;
   border-top: none;
   color: #404040;
@@ -125,4 +127,37 @@ footer {
 
 #main-logo {
   width: 180px;
+}
+
+footer a {
+  padding-right: 10px;
+  color: #404040;
+}
+
+
+.fixed-container {
+  display: flex;
+  top: 10px;
+  right: 20px;
+  float: right;
+  font-size: 0.75rem;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed-container button {
+  margin-left: 10px;
+  width: 90px;
+  height: 30px;
+  font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .fixed-container {
+    display: none;
+  }
+  
 }
